@@ -10,6 +10,12 @@
     "module": true,
     "require": true,
   },
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "classes": true,
+    "generators": true,
+    "objectLiteralShorthandProperties": true,
+  },
   "rules": {
     // Enforce "one true brace style", allowing start and end braces to be
     // on the same line.
@@ -23,6 +29,8 @@
 
     // Enforce the use of strict mode at the file level.
     "global-strict": [2, "always"],
+
+    "new-cap": 0,
 
     // Allow things like `while (true)`.
     "no-constant-condition": 0,

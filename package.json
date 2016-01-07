@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "author": "Patrick Dubroy <pdubroy@gmail.com> (http://dubroy.com)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "inherits": "^2.0.1"
+  },
   "devDependencies": {
     "browserify": "^5.9.1",
     "eslint": "^0.17.1",
